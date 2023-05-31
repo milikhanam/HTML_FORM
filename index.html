@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking Form</title>
+</head>
+<body>
+  
+  <form style="width:100%; max-width: 2000px;" >
+    <!-- reservation Details-->
+    <h1 style="text-align: center;">Reservation Details</h1>
+    <h2>Personal Information:</h2>
+ <div>
+      <label for="name"><strong>Name:</strong></label>
+      <input id="firstname" type="text" value="First Name">
+      <input type="text" name="" value="Last Name">
+</div><br><br>
+
+ <div>
+      <label for="phone"><strong>Phone:</strong></label>
+      <input id="phone" type="number">
+      <label><strong>Email:</strong></label>
+      <input type="email">
+    </div><br><br>
+
+<div>
+      <label for="address"><strong>Address:<strong></label>
+    <input id="address" type="text">
+    <label for="city"><strong>City:</strong></label>
+    <input id="city" type="text"><br><br>
+    </div>
+ <div>
+    <label for="state"><strong>State:</strong></label>
+    <input id="state" type="text">
+    <label id="zip"><strong>Zip:</strong></label>
+    <input id="zip" type="number">
+ </div>
+
+ <div>
+  <h2>Booking Information:</h2>
+  <label for="checkindate">Check-in Date:</label>
+  <input id="checkindate" type="date">
+  <label for="checkintime">Check-in Time:</label>
+  <input id="checkintime" type="time">
+ </div><br>
+
+ <div>
+  <label for="checeoutdate">Check-out Date:</label>
+  <input id="checkoutdate" type="date">
+  <label for="checkouttime">Check-in Time</label>
+  <input type="time">
+ </div>
+
+ <div><br>
+  <strong>Room Preferance:</strong><br>
+  <input id="standard" name="choose_one" type="radio">
+  <label for="standard">Standard</label>
+  <input id="deluxe" name="choose_one" type="radio">
+  <label for="deluxe">Deluxe</label>
+  <input  id="suite" name="choose_one" type="radio">
+  <label for="suite" >Suite</label><br><br>
+  </div>
+  <strong>Number of Guest:</strong><br><br>
+  <label for="number1">Adult:</label>
+  <select name="adultnumber" id="number1"> 
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  <label for="number2">Children:</label>
+  <select name="childnumber" id="number2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option></select>
+
+  </div>
+  <p><button type="submit" >Submit</button></p>
+ 
+  </form>
+</body>
+</html>
